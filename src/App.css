@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  font-family: 'Inter', sans-serif;
+}
+.navbar{
+  max-width: 50%;
+  height: 55px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: white;
+}
+.fa-earth-americas{
+ font-size: 24px;
+}
+.navbar span{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.card{
+  display: flex;
+ max-width: 45%;
+ margin: 40px auto;
+ 
+}
+.card-img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+.location{
+  margin: 10px;
+  font-weight: 400;
+font-size: 13.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #2B283A;
+}
+.card-title{
+  margin:0 10px;
+  color: #2B283A;
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+.card-date{
+  margin: 10px 10px;
+  font-weight: 700;
+font-size: 13.24px;
+line-height: 12px;
+}
+.card-description{
+margin: 0 10px;
+width: 70%;
+font-weight: 400;
+font-size: 13.24px;
+line-height: 150%;
+}
+.google-links{
+  font-weight: 400;
+font-size: 12.24px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+padding: 10px;
+}
